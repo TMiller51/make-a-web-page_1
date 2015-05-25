@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<!-- Tim's Webpage for Udacity "Introduction to Programming" Nanodegree -->
+<html>
+  <!-- This is the head section -->
+  <head>
+    <link rel="stylesheet" type="text/css" href="Project_for_Stage_1-2_r2.css">
+    <title>Project for Stage 2</title>
+  </head>
+  <!-- This is the body -->
+  <body>
+    <div> <!-- Webpage Title -->
+      <h1>
+        UDACITY Nanodegree - <i>Introduction to Programming</i>
+      </h1>
+    </div>
+
+    <div class="LessonStyles"> <!-- Apply "lesson" CSS styles -->
+      <div>
+          <h2 class="section-title">Notes for Lesson 1:</h2>
+      </div>
+
+      <div>
+        <p>
+          The instructor for this lesson was Steve Huffman, cofounder of
+          <a href="www.reddit.com">Reddit.com</a>.
+        </p>
+        <p>
+          The World Wide Web is made of a collection of <b>HTML</b> documents. <b>HTML</b>
+          stands for <em>HyperText Markup Language</em>.
+          The links between these documents are called Hyperlinks.
+        </p>
+        <p>The major pieces are (1) you (2) your computer (browser) (3) the Internet and
+          (4) servers. Your browser uses a protocol called HTTP to communicate on the
+          Internet with the servers.
+        </p>
+        <p>HTML is made up of <em>tags</em> which look like this:<br>
+          <br><b>&lt;name></b> Contents <b>&lt;/name></b> where:<br><br>
+          <b>&lt;name></b> is the opening tag and <b>&lt;/name></b> is the closing tag.
+        </p>
+        <p>
+          The whole structure with opening and closing tags is called an <b>element</b>.
+        </p>
+        <p>
+          Some example tags are:<br>
+          &lt;b> - make text <b>bold</b><br>
+          &lt;em> - make text <em>italic</em><br>
+        </p>
+
+        <h3>HTML Attributes:</h3>
+        <p>
+          HTML attributes provide additional information to the tag and look like this:
+        </p>
+        <p>
+          &lt;TAG ATTR="value"> contents &lt;/TAG>. HTML tags may use multiple
+          attributes.
+        </p>
+        <p>
+          A very common HTML tag that uses an attribute is the <b>&lt;a></b> anchor tag which
+          is used for embedding hypertext links in a web page:
+        </p>
+        <p>
+          Example:<br><b>&lt;a href="www.reddit.com"> derp &lt;/a></b> creates a link to
+          <a href="www.reddit.com">Reddit.com</a>. In this example, <em><b>href</b></em>
+          is the attribute name.
+        </p>
+        <p>
+          Another common HTML tag with attributes is the <b>&lt;img></b> tag which is used
+          for embedding images into a webpage, like this:
+          <img src="http://www.udacity.com/cs253x/hipmunk.png" alt="Himunk Squirrel">
+        </p>
+        <p>
+          Example:<br>
+          <b>&lt;img src="url" alt="text"></b> displays the image linked to by the URL. "src" is the
+          attribute that points to the image. "alt" is the text that will be displayed in
+          the case of a broken link and is also useful for accessibility options such as
+          browsers for the blind.
+        </p>
+        <p>
+          An &lt;img> tag is a type of <b>void</b> tag. A void tag is one with no content. Since it
+          is a void tag, no closing tag is needed.
+        </p>
+        <p>
+          HTML handles whilespace (such as newlines, tabs and spaces) as a single space.
+        </p>
+        <p>
+          The <b>&lt;br></b> tag is a void tag which inserts a new line. Multiple &lt;br> tags
+          may be used.
+        </p>
+        <p>
+          The <b>&lt;p></b> (paragraph) tag is similar to the &lt;br> tag but it is not a void tag
+          and it has content and requires a closing tag.
+        </p>
+        <p>
+          The &lt;br> tag is an <b>Inline</b> type of tag and the &lt;p> tag is a type of <b>Block</b>
+          tag. The &lt;br> tag simply inserts a newline into the text. The &lt;p> tag creates an
+          "invisible box" which can have height and width. Of the elements covered so far, the &lt;p>
+          element is the only one that is a block element.
+        </p>
+        <p>
+          Two other important elements are <b>&lt;span></b> and <b>&lt;div></b>. &lt;span>
+          is an inline type of element and &lt;/div> is a block type. Both of these elements are
+          used to contain their context. Later these will be used for applying styles along with
+          CSS.
+        </p>
+        
+        <h3>HTML Document Structure:</h3>
+        
+        <p>
+          A complete HTML document consists of several sections, they are:<br><br>
+          1. The Doctype (will be covered more later)<br><br>
+          2. The opening HTML tag: <b>&lt;HTML></b> which, along with <b>&lt;/HTML></b> just surround
+          the entire document.<br><br>
+          3. The Head, which is contained within &lt;head> and &lt;/head>. The head contains metadata
+          used by things like Javascript and CSS. It also contains the Title of the webpage, inside
+          the <b>&lt;title></b> element. The title is what appears in the top of the browser window
+          or tab.<br><br>
+          4. The Body, which contains the contents of the document within the &lt;body> tag.
+        </p>
+
+      </div>
+    </div>
+
+    <div class="LessonStyles"> <!-- Apply "lesson" CSS styles -->
+     <div>
+          <h2 class="section-title">Notes for Lesson 2:</h2>
+     </div>
+
+      <p>
+        Learning HTML is a useful way to learn programming because you can get immediate
+        feedback on your work and can easily share your results.
+      </p>
+      <p>
+        The Google Chrome web browser can be used to view the HTML of a web page with the
+        Developer Tools menu selection.
+      </p>
+      <p>
+        All elements of a web page, including circular or irregular-shaped objects are contained
+        within retangular boxes.
+      </p>
+      <p>
+        HTML files have a tree-like structure
+      </p>
+      <p>
+        -HTML and CSS are both "languages"<br>
+        -HTML controls the "structure" of a web page<br>
+        -CSS controls the "style" of a page (how it looks), CSS is code written to control the "style" of HTML elements<br>
+        -"DOM" (Document Object Model) is the tree-like structure of a page.
+      </p>
+    </div>
+
+      <div class="LessonStyles"> <!-- Apply "lesson" CSS styles -->
+        <div>
+          <h2 class="section-title">Notes for Lesson 3:</h2>
+        </div>
+        <h3>Avoiding Repetition:</h3>
+        <p>When programming, it is best to avoid repetition. For example, with CSS we can assign similar elements with the same style. Then, instead of changing the styles of each element seperately we can change it once and all of the similar elements change uniformly. Avoiding repetition will usually make code shorter and easier to read.
+        </p>
+        <h3>Comments:</h3>
+        <p>-In HTML, code comments begin with &lt;!-- and end with -->. Everything in between is ignored.</p>
+        <p>-In CSS, code comments begin with /* and end with */.</p>
+        <h3>Box Sizing:</h3>
+        <p>There are four main points about box sizing:</p>
+        <div>1. HTML elements are boxes and each box has 4 components.<br>
+           2. Because there are so many components to each box, it can often be hard to get the size of a box just right.<br>
+           3. There are two techniques you can use to help deal with sizing issues:<br>
+          <div class="sub_paragraph"> <!-- indent these lines -->
+            -Set sizes in terms of percentages rather than pixels.<br>
+            -Set the box-sizing attribute to border-box for every element.<br>
+          </div>
+          
+            4. Different browsers work slightly differently. Sometimes this causes different browsers to display the same code differently.
+        </div>
+        <h3>Box Positioning:</h3>
+        <p>
+          1. Divs are block elements (as opposed to inline), so by default they take up the entire width of a page.<br>
+          2. Adding the rule display: flex; to the appropriate CSS will override this behavior and let divs appear next to each other.
+        </p>
+    </div>
+
+</body>

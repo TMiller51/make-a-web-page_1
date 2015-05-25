@@ -1,0 +1,36 @@
+h1 {
+	color: #294860;
+	text-align: center;
+	font-weight: bold;
+}
+
+body {
+  font-family: "Whitney SSm A","Whitney SSm B","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #303030;
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: WHITE;
+}
+
+.section-title {
+  margin-bottom: 0.5em;
+  background-color: #DAA520;
+  padding: 0.2em 0.2em;
+  color: #F0FFF0;
+}
+
+.LessonStyles {
+	background-color: #F5F5DC;
+	/* padding-top: .5em; */
+	/* padding-left: 1.5em; */
+	/*padding-right: 1.5em;*/
+	/*padding-bottom: .2em;*/
+  padding: 20px;
+  margin: 30px auto;
+}
+
+.sub_paragraph {
+  padding-left: 20px;
+}
